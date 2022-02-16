@@ -1,0 +1,31 @@
+.container form {
+      margin-top: 70px;
+      height: 300px;
+      width: 400px;
+  }
+  
+  .inputContainer {
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+    label {
+      width: 100px;
+    }
+    input {
+      width: 150px;
+      height: 20px;
+      border-radius: 5px;
+      border-width: 1px;
+    }
+  }
+  
+  .submitContainer input {
+    margin-top: 10px;
+    height: 25px;
+    width: 120px;
+    border-radius: 5px;
+    border-width: 1px;
+    cursor: pointer;
+  }
+  

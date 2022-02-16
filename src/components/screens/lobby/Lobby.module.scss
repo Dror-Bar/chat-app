@@ -1,0 +1,35 @@
+.container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    width: 80%;
+    height: 80%;
+    border: 2px solid #222;
+    display: flex;
+}
+
+.roomsContainer {
+    width: 45%;
+    height: 100%;
+    text-align: left;
+    padding: 15px;
+    box-sizing: border-box;
+    border-right: 1px solid #222;
+    h4 {
+        margin-top: 0;
+        text-decoration: underline;
+    }
+}
+
+.roomContainer {
+    width: 55%;
+    height: 100%;
+}
+
+.roomName {
+    margin: 10px;
+}
