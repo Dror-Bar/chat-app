@@ -8,13 +8,11 @@ import { Register } from 'components/screens/register/Register';
 import { NotFound } from './components/screens/notFound/NotFound';
 import { Lobby } from 'components/screens/lobby/Lobby';
 import { Room } from 'components/screens/room/Room';
-import { useSelector, useDispatch } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { setUser } from './redux/AuthSlice';
-import { RootState } from './redux/Store';
 
 export const App = () => {
 
-  const { user } = useSelector((state: RootState) => state.auth);
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
